@@ -1,0 +1,146 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #110e0e;
+    border-color: 1px solid red;
+    
+}
+
+body{
+    height:100vh;
+    overflow: hidden;
+    font-family: "Noto Sans",sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    padding: 20px 10px;
+    height: 58px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+     
+}
+li{
+    text-align: left;
+    padding: 13px 11px;
+}
+a{
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.menu-bg{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+}
+.menu-button:hover{
+    background-color: rgba(48, 43, 43, 0.274);
+    cursor: pointer;
+}
+
+.menu-button{
+    width: 15px;
+}
+.profile{
+    margin-top: 7px;
+    border-radius: 50%;
+}
+
+.logo{
+    width: 400px;
+}
+
+.search-tab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+}
+.offer{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+
+form{
+    position: relative;
+}
+
+input{
+    width: 500px;
+    height: 45px;
+    padding-left: 49px;
+    font-size: 18px;
+    border-radius: 44px;
+    border: 1px solid rgba(82, 80, 80, 0.212);
+}
+.search{
+    width: 35px;
+    position: absolute;
+    top: 5px;
+    left: 14px;
+}
+.mic{
+    width: 38px;
+    position: absolute;
+    top: 5px;
+    left: 420px;
+}
+.search-image{
+    width: 35px;
+    position: absolute;
+    top: 5px;
+    left: 455px;
+}
+
+.buttons{
+    width: 350px;
+    margin-left:100px ;
+    margin-top: 30px;
+}
+
+button{
+    border:0.5px solid transparent;
+    padding: 9px 13px;
+    background-color: #f5f1f17c;
+    border-radius: 9px;
+}
+button:hover{
+    border: 0.5px solid #a7a3a36b;
+    box-shadow: 0 0 1px 0.5px #a7a3a3c7;
+}
+
+
+footer{
+    width:100%;
+    background-color: #f2f2f2;
+}
+
+p{
+    padding: 11px;
+}
+.TOC{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.location{
+    border: 1px solid rgba(128, 128, 128, 0.062);
+}
